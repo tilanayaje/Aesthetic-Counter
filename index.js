@@ -8,4 +8,3 @@ function myFunction() {
     valNum += 1;
     document.getElementById("val").textContent = valNum;
 }
-
