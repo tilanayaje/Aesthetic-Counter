@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    overflow: hidden; 
+}
+
+body {
+    background-color: blueviolet;
+    background:
+  linear-gradient(217deg, rgb(237, 147, 1), rgba(195, 0, 255, 0.253) 80.71%),
+  linear-gradient(127deg, rgb(28, 0, 104), rgba(191, 0, 255, 0.285) 70.71%),
+  linear-gradient(336deg, rgb(0, 0, 152), rgba(25, 0, 255, 0.382) 70.71%);
+}
+
+h1{
+    color:rgb(255, 240, 182);
+    margin-top:64px;
+    padding-top:64px;
+    text-align: center;
+    font-size:128px;
+    font-family:serif;
+    text-shadow: 8px 16px 1px rgb(213, 7, 7);
+}
+#button{
+    background-color: transparent;
+    color:rgb(255, 240, 182);
+    font-size:56px;
+    font-weight:bold;
+    border:0cap;
+    margin:auto;
+    display:block;
+    text-align:center;
+
+    text-shadow: 3px 4px 1px rgb(213, 7, 7);
+}
+#button:hover{
+    color:rgb(255, 98, 0);
+    text-shadow: 3px 4px 1px rgb(255, 240, 182) ;
+    cursor:pointer;
+}
