@@ -2,10 +2,13 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%; 
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 body {
+    display:grid;
+
+    align-items:center;
     background-color: blueviolet;
     background:
   linear-gradient(217deg, rgb(237, 147, 1), rgba(195, 0, 255, 0.253) 80.71%),
@@ -14,13 +17,15 @@ body {
 }
 
 h1{
+    display:inline;
+    border-radius:25px;
     color:rgb(255, 240, 182);
-    margin-top:64px;
-    padding-top:64px;
     text-align: center;
     font-size:128px;
     font-family:serif;
     text-shadow: 8px 16px 1px rgb(213, 7, 7);
+    margin: 24px;
+    padding: 12px;
 }
 #button{
     background-color: transparent;
