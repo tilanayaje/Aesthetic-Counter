@@ -7,4 +7,7 @@ function myFunction() {
     let valNum = Number(valText);
     valNum += 1;
     document.getElementById("val").textContent = valNum;
+    
+    localStorage.setItem("name", valNum);
+    console.log(localStorage.getItem("name"));
 }
