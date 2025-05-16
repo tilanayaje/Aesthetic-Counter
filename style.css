@@ -7,13 +7,18 @@ html, body {
 
 body {
     display:grid;
-
     align-items:center;
     background-color: blueviolet;
     background:
-  linear-gradient(217deg, rgb(237, 147, 1), rgba(195, 0, 255, 0.253) 80.71%),
-  linear-gradient(127deg, rgb(28, 0, 104), rgba(191, 0, 255, 0.285) 70.71%),
-  linear-gradient(336deg, rgb(0, 0, 152), rgba(25, 0, 255, 0.382) 70.71%);
+  linear-gradient(217deg, rgba(255, 149, 0, 0.781), rgba(365, 0, 255, 0.253) 70.71%),
+  linear-gradient(127deg, rgb(10, 15, 78), rgba(191, 0, 255, 0.578) 99.71%),
+  linear-gradient(336deg, rgb(0, 0, 152), rgb(0, 37, 92) 70.71%);
+}
+h1{
+    transition: color 0.25s;
+}
+h1:hover {
+    color:rgb(255, 251, 0);
 }
 
 h1{
