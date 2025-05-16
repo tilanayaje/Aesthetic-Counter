@@ -6,12 +6,12 @@ if (isNaN(valNum)) {
     valNum = 0;
 }
 
+count.textContent = valNum;
+
 button.addEventListener("click", myFunction);
 
 function myFunction() {
-    let valText = document.getElementById("val").textContent;
-    let valNum = Number(valText);
     valNum += 1;
-    document.getElementById("val").textContent = valNum;
+    count.textContent = valNum;
     localStorage.setItem("name", valNum);
 }
